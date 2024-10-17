@@ -31,5 +31,6 @@ export const canimApi = createApi({
     "Purchase",
     "Review",
   ],
+
   endpoints: () => ({}),
 });
