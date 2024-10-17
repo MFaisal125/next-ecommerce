@@ -12,7 +12,7 @@ export const metadata = {
     title: "E-Commerce Application",
     description:
       "Explore the latest in fashion trends, from chic clothing and accessories to statement footwear. Stay ahead in style with exclusive collections and amazing discounts.",
-    url: "https://next-e-commerce1.vercel.app/",
+    url: "https://next-e-commerce1.vercel.app",
     siteName: "My E-Commerce Application",
     images: "",
     locale: "en_US",
@@ -25,7 +25,6 @@ export const metadata = {
     description:
       "Explore the latest in fashion trends, from chic clothing and accessories to statement footwear. Stay ahead in style with exclusive collections and amazing discounts.",
     image: "",
-    s,
   },
 };
 
