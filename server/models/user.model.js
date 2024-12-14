@@ -81,7 +81,7 @@ const userSchema = new mongoose.Schema(
         validator: (value) =>
           validator.isMobilePhone(value, "bn-BD", { strictMode: true }),
         message:
-          "Phone number {VALUE} is not valid. Please, retry like +8801xxxxxxxxx",
+          "Phone number {VALUE} is not valid. Please, retry like +9203xxxxxxxxx",
       },
       unique: true,
     },

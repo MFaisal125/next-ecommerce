@@ -1,18 +1,3 @@
-/**
- * Title: Write a program using JavaScript on Header
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 17, October 2023
- */
-
 "use client";
 
 import React from "react";
@@ -30,14 +15,14 @@ const Header = () => {
 
   return (
     <Container className="">
-      <nav className="rounded-xl p-4 flex flex-row justify-between">
-        <div className="flex flex-row gap-x-4 items-center relative">
+      <nav className="rounded-xl p-4 flex flex-row justify-between ">
+        <div className="flex flex-row gap-x-4 sm:gap-x-1 items-center relative">
           <Image
             src="/logo.png"
             alt="logo"
-            width={141}
+            width={60}
             height={40}
-            className="h-[40px] object-contain md:block hidden cursor-pointer"
+            className="h-[50px] object-contain md:block cursor-pointer"
             onClick={() => window.open("/", "_self")}
           />
 

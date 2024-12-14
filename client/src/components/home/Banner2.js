@@ -25,7 +25,7 @@ const Banner2 = ({ className }) => {
     <section className="mt-20">
       <Container className={className ? className : ""}>
         <div
-          className="bg-yellow-50 h-full w-full rounded-primary relative flex flex-col gap-y-8 lg:p-24 p-8"
+          className="bg-[#4dffff] h-full w-full rounded-primary relative flex flex-col gap-y-8 lg:p-24 p-8"
           style={{ backgroundImage: "url(/assets/home/banner/dots.svg)" }}
         >
           <Image
