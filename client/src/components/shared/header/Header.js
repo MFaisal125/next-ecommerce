@@ -16,13 +16,13 @@ const Header = () => {
   return (
     <Container className="">
       <nav className="rounded-xl p-4 flex flex-row justify-between ">
-        <div className="flex flex-row gap-x-4 sm:gap-x-1 items-center relative">
+        <div className="flex flex-row pl-[-60px] items-center relative">
           <Image
             src="/logo.png"
             alt="logo"
-            width={60}
+            width={50}
             height={40}
-            className="h-[50px] object-contain md:block cursor-pointer"
+            className="h-[40px] object-contain cursor-pointer"
             onClick={() => window.open("/", "_self")}
           />
 
